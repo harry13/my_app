@@ -1,0 +1,1224 @@
+@charset "UTF-8";
+/* line 144, ../../../sass/core/_site_utility.scss */
+.c-ttl-section:after, .c-ttl-section-02:after, .c-ttl-section--profile:after, .c-paragraph--box:after, .c-ttl-category:before, .c-ttl-section:before, .c-ttl-section-02:before, .c-ttl-section--profile:before, .c-breadcrumb .c-breadcrumb__home, .c-breadcrumb .c-breadcrumb__children:before, .c-update-list.is-new:after, .p-text-fe-growth, .p-text-tips, .s-change-log .s-change-log__new-icon:after, .page-fukushima .s-pankuzu:before, .page-fukushima .s-pankuzu .s-pankuzu__icon.icon-arrow, .page-fukushima .s-ttl-profile:before, .page-fukushima .s-ttl-introduction:before, .page-fukushima .s-ttl-introduction:after, .page-fukushima .s-ttl-introduction-sub:after, .page-fukushima .s-history .s-history__icon.icon-new {
+  background: url(/common/sprite/sprite.png) no-repeat;
+  -moz-background-size: 304px auto;
+  -o-background-size: 304px auto;
+  -webkit-background-size: 304px auto;
+  background-size: 304px auto;
+}
+
+/* line 148, ../../../sass/core/_site_utility.scss */
+.c-ttl-section:after, .c-ttl-section-02:after, .c-ttl-section--profile:after, .c-paragraph--box:after {
+  background-position: 0 0;
+  width: 304px;
+  height: 3px;
+}
+
+/* reset */
+/* line 2, ../../../sass/libs/_site_default.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,
+button, input[type=submit], input[type=button] {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 23, ../../../sass/libs/_site_default.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 27, ../../../sass/libs/_site_default.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* default styles */
+/* line 31, ../../../sass/libs/_site_default.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 32, ../../../sass/libs/_site_default.scss */
+body {
+  line-height: 1.4rem;
+  font-family: ArialMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", sans-serif;
+  font-size: 1.2rem;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  color: #828282;
+}
+
+/* line 43, ../../../sass/libs/_site_default.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 44, ../../../sass/libs/_site_default.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 45, ../../../sass/libs/_site_default.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 46, ../../../sass/libs/_site_default.scss */
+small {
+  font-size: 1.0rem;
+}
+
+/* line 47, ../../../sass/libs/_site_default.scss */
+mark {
+  background-color: transparent;
+}
+
+/* line 48, ../../../sass/libs/_site_default.scss */
+img {
+  vertical-align: bottom;
+}
+
+/* line 49, ../../../sass/libs/_site_default.scss */
+a {
+  color: #828282;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 2, ../../../sass/libs/_site_helper.scss */
+.fc-base {
+  color: #828282 !important;
+}
+
+/* line 6, ../../../sass/libs/_site_helper.scss */
+.fs-b {
+  font-size: 1.2rem !important;
+}
+
+/* line 7, ../../../sass/libs/_site_helper.scss */
+.fs-s {
+  font-size: 1.1rem !important;
+}
+
+/* line 8, ../../../sass/libs/_site_helper.scss */
+.fs-l {
+  font-size: 1.4rem !important;
+}
+
+/* line 9, ../../../sass/libs/_site_helper.scss */
+.fs-xs {
+  font-size: 1rem !important;
+}
+
+/* line 10, ../../../sass/libs/_site_helper.scss */
+.fs-xl {
+  font-size: 1.6rem !important;
+}
+
+/* line 11, ../../../sass/libs/_site_helper.scss */
+.fs-xxs {
+  font-size: 0.6rem !important;
+}
+
+/* line 12, ../../../sass/libs/_site_helper.scss */
+.fs-xxl {
+  font-size: 1.8rem !important;
+}
+
+/* line 15, ../../../sass/libs/_site_helper.scss */
+.fw-n {
+  font-weight: normal !important;
+}
+
+/* line 16, ../../../sass/libs/_site_helper.scss */
+.fw-b {
+  font-weight: bold !important;
+}
+
+/* line 19, ../../../sass/libs/_site_helper.scss */
+.td-u {
+  text-decoration: underline;
+}
+
+/* line 23, ../../../sass/libs/_site_helper.scss */
+.ta-l {
+  text-align: left !important;
+}
+
+/* line 24, ../../../sass/libs/_site_helper.scss */
+.ta-r {
+  text-align: right !important;
+}
+
+/* line 25, ../../../sass/libs/_site_helper.scss */
+.ta-c {
+  text-align: center !important;
+}
+
+/* line 28, ../../../sass/libs/_site_helper.scss */
+.lh-b {
+  line-height: 1.4rem;
+}
+
+/* line 29, ../../../sass/libs/_site_helper.scss */
+.lh-s {
+  line-height: 1.2rem !important;
+}
+
+/* line 30, ../../../sass/libs/_site_helper.scss */
+.lh-l {
+  line-height: 1.6rem !important;
+}
+
+/* line 31, ../../../sass/libs/_site_helper.scss */
+.lh-xs {
+  line-height: 1.0rem !important;
+}
+
+/* line 32, ../../../sass/libs/_site_helper.scss */
+.lh-xl {
+  line-height: 1.8rem !important;
+}
+
+/* line 36, ../../../sass/libs/_site_helper.scss */
+.pe-n {
+  pointer-events: none !important;
+}
+
+/* line 37, ../../../sass/libs/_site_helper.scss */
+.pe-a {
+  pointer-events: auto !important;
+}
+
+/* line 41, ../../../sass/libs/_site_helper.scss */
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+/* line 42, ../../../sass/libs/_site_helper.scss */
+.mt-b {
+  margin-top: 4px !important;
+}
+
+/* line 43, ../../../sass/libs/_site_helper.scss */
+.mt-b2 {
+  margin-top: 8px !important;
+}
+
+/* line 44, ../../../sass/libs/_site_helper.scss */
+.mt-b3 {
+  margin-top: 12px !important;
+}
+
+/* line 45, ../../../sass/libs/_site_helper.scss */
+.mt-b4 {
+  margin-top: 16px !important;
+}
+
+/* line 47, ../../../sass/libs/_site_helper.scss */
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+/* line 48, ../../../sass/libs/_site_helper.scss */
+.mr-b {
+  margin-right: 4px !important;
+}
+
+/* line 49, ../../../sass/libs/_site_helper.scss */
+.mr-b2 {
+  margin-right: 8px !important;
+}
+
+/* line 50, ../../../sass/libs/_site_helper.scss */
+.mr-b3 {
+  margin-right: 12px !important;
+}
+
+/* line 51, ../../../sass/libs/_site_helper.scss */
+.mr-b4 {
+  margin-right: 16px !important;
+}
+
+/* line 53, ../../../sass/libs/_site_helper.scss */
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+/* line 54, ../../../sass/libs/_site_helper.scss */
+.mb-b {
+  margin-bottom: 4px !important;
+}
+
+/* line 55, ../../../sass/libs/_site_helper.scss */
+.mb-b2 {
+  margin-bottom: 8px !important;
+}
+
+/* line 56, ../../../sass/libs/_site_helper.scss */
+.mb-b3 {
+  margin-bottom: 12px !important;
+}
+
+/* line 57, ../../../sass/libs/_site_helper.scss */
+.mb-b4 {
+  margin-bottom: 16px !important;
+}
+
+/* line 59, ../../../sass/libs/_site_helper.scss */
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+/* line 60, ../../../sass/libs/_site_helper.scss */
+.ml-b {
+  margin-left: 4px !important;
+}
+
+/* line 61, ../../../sass/libs/_site_helper.scss */
+.ml-b2 {
+  margin-left: 8px !important;
+}
+
+/* line 62, ../../../sass/libs/_site_helper.scss */
+.ml-b3 {
+  margin-left: 12px !important;
+}
+
+/* line 63, ../../../sass/libs/_site_helper.scss */
+.ml-b4 {
+  margin-left: 16px !important;
+}
+
+/* line 65, ../../../sass/libs/_site_helper.scss */
+.mr-a {
+  margin-right: auto !important;
+}
+
+/* line 66, ../../../sass/libs/_site_helper.scss */
+.ml-a {
+  margin-left: auto !important;
+}
+
+/* line 68, ../../../sass/libs/_site_helper.scss */
+.mlr-a {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* line 74, ../../../sass/libs/_site_helper.scss */
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+/* line 75, ../../../sass/libs/_site_helper.scss */
+.pt-b {
+  padding-top: 4px !important;
+}
+
+/* line 76, ../../../sass/libs/_site_helper.scss */
+.pt-b2 {
+  padding-top: 8px !important;
+}
+
+/* line 77, ../../../sass/libs/_site_helper.scss */
+.pt-b3 {
+  padding-top: 12px !important;
+}
+
+/* line 78, ../../../sass/libs/_site_helper.scss */
+.pt-b4 {
+  padding-top: 16px !important;
+}
+
+/* line 80, ../../../sass/libs/_site_helper.scss */
+.pr-0 {
+  padding-right: 0 !important;
+}
+
+/* line 81, ../../../sass/libs/_site_helper.scss */
+.pr-b {
+  padding-right: 4px !important;
+}
+
+/* line 82, ../../../sass/libs/_site_helper.scss */
+.pr-b2 {
+  padding-right: 8px !important;
+}
+
+/* line 83, ../../../sass/libs/_site_helper.scss */
+.pr-b3 {
+  padding-right: 12px !important;
+}
+
+/* line 84, ../../../sass/libs/_site_helper.scss */
+.pr-b4 {
+  padding-right: 16px !important;
+}
+
+/* line 86, ../../../sass/libs/_site_helper.scss */
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+/* line 87, ../../../sass/libs/_site_helper.scss */
+.pb-b {
+  padding-bottom: 4px !important;
+}
+
+/* line 88, ../../../sass/libs/_site_helper.scss */
+.pb-b2 {
+  padding-bottom: 8px !important;
+}
+
+/* line 89, ../../../sass/libs/_site_helper.scss */
+.pb-b3 {
+  padding-bottom: 12px !important;
+}
+
+/* line 90, ../../../sass/libs/_site_helper.scss */
+.pb-b4 {
+  padding-bottom: 16px !important;
+}
+
+/* line 92, ../../../sass/libs/_site_helper.scss */
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+/* line 93, ../../../sass/libs/_site_helper.scss */
+.pl-b {
+  padding-left: 4px !important;
+}
+
+/* line 94, ../../../sass/libs/_site_helper.scss */
+.pl-b2 {
+  padding-left: 8px !important;
+}
+
+/* line 95, ../../../sass/libs/_site_helper.scss */
+.pl-b3 {
+  padding-left: 12px !important;
+}
+
+/* line 96, ../../../sass/libs/_site_helper.scss */
+.pl-b4 {
+  padding-left: 16px !important;
+}
+
+/* line 100, ../../../sass/libs/_site_helper.scss */
+.po-s {
+  position: static !important;
+}
+
+/* line 101, ../../../sass/libs/_site_helper.scss */
+.po-r {
+  position: relative !important;
+}
+
+/* line 102, ../../../sass/libs/_site_helper.scss */
+.po-a {
+  position: absolute !important;
+}
+
+/* line 106, ../../../sass/libs/_site_helper.scss */
+.di-n {
+  display: none !important;
+}
+
+/* line 107, ../../../sass/libs/_site_helper.scss */
+.di-i {
+  display: inline !important;
+}
+
+/* line 108, ../../../sass/libs/_site_helper.scss */
+.di-ib {
+  display: inline-block !important;
+}
+
+/* line 109, ../../../sass/libs/_site_helper.scss */
+.di-b {
+  display: block !important;
+}
+
+/* line 110, ../../../sass/libs/_site_helper.scss */
+.di-f {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* line 112, ../../../sass/libs/_site_helper.scss */
+.flex1 {
+  -webkit-flex: 1 0 0;
+  flex: 1 0 0;
+}
+
+/* line 115, ../../../sass/libs/_site_helper.scss */
+.vi-h {
+  visibility: hidden !important;
+}
+
+/* line 116, ../../../sass/libs/_site_helper.scss */
+.vi-v {
+  visibility: visible !important;
+}
+
+/* line 119, ../../../sass/libs/_site_helper.scss */
+.fl-n {
+  float: none !important;
+}
+
+/* line 120, ../../../sass/libs/_site_helper.scss */
+.fl-r {
+  float: right !important;
+}
+
+/* line 121, ../../../sass/libs/_site_helper.scss */
+.fl-l {
+  float: left !important;
+}
+
+/* line 122, ../../../sass/libs/_site_helper.scss */
+.cle:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* line 129, ../../../sass/libs/_site_helper.scss */
+.img-rep {
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 100%;
+}
+
+/* line 136, ../../../sass/libs/_site_helper.scss */
+.box-c {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center !important;
+  align-items: center !important;
+}
+
+/* line 141, ../../../sass/libs/_site_helper.scss */
+.box-cc {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center !important;
+  align-items: center !important;
+  -webkit-justify-content: center !important;
+  justify-content: center !important;
+}
+
+/* line 147, ../../../sass/libs/_site_helper.scss */
+.box-cb {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center !important;
+  align-items: center !important;
+  -webkit-justify-content: space-between !important;
+  justify-content: space-between !important;
+}
+
+/* line 153, ../../../sass/libs/_site_helper.scss */
+.box-ce {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center !important;
+  align-items: center !important;
+  -webkit-justify-content: flex-end !important;
+  justify-content: flex-end !important;
+}
+
+/* line 161, ../../../sass/libs/_site_helper.scss */
+.ls-xxs {
+  letter-spacing: -0.1rem !important;
+}
+
+/* line 165, ../../../sass/libs/_site_helper.scss */
+.ls-xs {
+  letter-spacing: -0.06rem !important;
+}
+
+/* line 169, ../../../sass/libs/_site_helper.scss */
+.ls-s {
+  letter-spacing: -0.03rem !important;
+}
+
+/* line 175, ../../../sass/libs/_site_helper.scss */
+.wb-ba {
+  word-break: break-all !important;
+}
+
+/* line 178, ../../../sass/libs/_site_helper.scss */
+.ws-nw {
+  white-space: nowrap !important;
+}
+
+/* line 182, ../../../sass/libs/_site_helper.scss */
+.img-rep {
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 100%;
+}
+
+/* line 1, ../../../sass/components/_index.scss */
+.g-site-header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #828282;
+  height: 44px;
+  padding-left: 4px;
+}
+
+/* line 10, ../../../sass/components/_index.scss */
+.g-site-footer {
+  background-color: #828282;
+  color: #fff;
+  padding: 4px;
+}
+/* line 14, ../../../sass/components/_index.scss */
+.g-site-footer .g-site-footer__inner {
+  text-align: center;
+}
+
+/* line 19, ../../../sass/components/_index.scss */
+.c-ttl-category {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #828282;
+  height: 23px;
+  padding-left: 22px;
+  width: 312px;
+}
+/* line 28, ../../../sass/components/_index.scss */
+.c-ttl-category:before {
+  background-position: -29px -44px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  content: "";
+  display: block;
+}
+/* line 35, ../../../sass/components/_index.scss */
+.c-ttl-category .c-ttl-category__inner {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+/* line 41, ../../../sass/components/_index.scss */
+.c-ttl-section, .c-ttl-section-02, .c-ttl-section--profile {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 22px;
+  margin: 0 auto;
+  padding-left: 24px;
+  width: 304px;
+}
+/* line 50, ../../../sass/components/_index.scss */
+.c-ttl-section:before, .c-ttl-section-02:before, .c-ttl-section--profile:before {
+  background-position: -71px -44px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0;
+  left: 4px;
+  content: "";
+  display: block;
+}
+/* line 57, ../../../sass/components/_index.scss */
+.c-ttl-section:after, .c-ttl-section-02:after, .c-ttl-section--profile:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+}
+
+/* line 66, ../../../sass/components/_index.scss */
+.c-ttl-section-02 {
+  padding-left: 0;
+  font-size: 1.1rem;
+}
+/* line 70, ../../../sass/components/_index.scss */
+.c-ttl-section-02:before {
+  content: none;
+}
+/* line 73, ../../../sass/components/_index.scss */
+.c-ttl-section-02:after {
+  background-position: 0 -3px;
+  width: 293px;
+  height: 3px;
+}
+
+/* line 78, ../../../sass/components/_index.scss */
+.c-paragraph {
+  padding: 0 8px 4px;
+}
+
+/* line 82, ../../../sass/components/_index.scss */
+.c-paragraph--box {
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 8px;
+  width: 304px;
+}
+/* line 87, ../../../sass/components/_index.scss */
+.c-paragraph--box:after {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  content: "";
+  display: block;
+  margin-left: -152px;
+}
+
+/* line 97, ../../../sass/components/_index.scss */
+.c-link-wide {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  border: #828282 solid 1px;
+  border-radius: 4px;
+  display: block;
+  height: 50px;
+  margin: 0 auto;
+  padding: 16px 4px 4px;
+  width: 304px;
+}
+/* line 107, ../../../sass/components/_index.scss */
+.c-link-wide .c-link-wide__data {
+  position: absolute;
+  top: 0;
+  right: 4px;
+}
+
+/* line 113, ../../../sass/components/_index.scss */
+.c-dl-list .c-dl-list__mark:before {
+  content: "■";
+  display: inline-block;
+  margin-right: 4px;
+}
+
+/* line 121, ../../../sass/components/_index.scss */
+.c-breadcrumb {
+  padding: 9px 12px;
+  height: 22px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 122, ../../../sass/components/_index.scss */
+.c-breadcrumb .c-breadcrumb__home {
+  background-position: -25px -17px;
+  width: 26px;
+  height: 22px;
+}
+/* line 126, ../../../sass/components/_index.scss */
+.c-breadcrumb .c-breadcrumb__link {
+  width: 26px;
+  height: 22px;
+}
+/* line 130, ../../../sass/components/_index.scss */
+.c-breadcrumb .c-breadcrumb__children {
+  position: relative;
+  font-size: 1.4rem;
+  padding-left: 16px;
+  margin-left: 4px;
+}
+/* line 135, ../../../sass/components/_index.scss */
+.c-breadcrumb .c-breadcrumb__children:before {
+  background-position: -293px -3px;
+  width: 11px;
+  height: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  display: block;
+}
+
+/* line 154, ../../../sass/components/_index.scss */
+.c-ttl-section--profile:before {
+  background-position: 0 -44px;
+  width: 13px;
+  height: 14px;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+}
+
+/* line 161, ../../../sass/components/_index.scss */
+.c-update-list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-start !important;
+  align-items: flex-start !important;
+}
+/* line 166, ../../../sass/components/_index.scss */
+.c-update-list.is-new:after {
+  background-position: -13px -44px;
+  width: 16px;
+  height: 15px;
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2px;
+}
+
+/* line 1, ../../../sass/parts/_index.scss */
+.p-text-fe-growth {
+  background-position: -89px -44px;
+  width: 190px;
+  height: 21px;
+}
+
+/* line 6, ../../../sass/parts/_index.scss */
+.p-text-tips {
+  background-position: -44px -44px;
+  width: 27px;
+  height: 18px;
+  display: block;
+}
+
+/* ===============================
+プロフィール
+================================= */
+/* line 5, ../../../sass/limited/_ogas.scss */
+.s-content {
+  max-width: 769px;
+  margin: 0 auto;
+}
+
+/* line 10, ../../../sass/limited/_ogas.scss */
+.s-breadcrumb {
+  margin: 8px 0;
+  display: -webkit-flex;
+  display: flex;
+}
+/* line 13, ../../../sass/limited/_ogas.scss */
+.s-breadcrumb .s-breadcrumb__link {
+  color: #00f;
+}
+
+/* ウィンドウ幅が479px以上の場合 */
+@media screen and (min-width: 479px) {
+  /* line 21, ../../../sass/limited/_ogas.scss */
+  .s-hobby {
+    display: -webkit-flex;
+    display: flex;
+    -moz-box-shadow: 0 0 2px 3px rgba(0, 195, 195, 0.6);
+    -webkit-box-shadow: 0 0 2px 3px rgba(0, 195, 195, 0.6);
+    box-shadow: 0 0 2px 3px rgba(0, 195, 195, 0.6);
+    padding: 4px;
+  }
+  /* line 25, ../../../sass/limited/_ogas.scss */
+  .s-hobby .s-hobby__img {
+    width: 40%;
+    margin: 0 8px 8px 0;
+  }
+  /* line 29, ../../../sass/limited/_ogas.scss */
+  .s-hobby .s-hobby__txt {
+    width: 55%;
+    margin-botton: 8px;
+  }
+  /* line 32, ../../../sass/limited/_ogas.scss */
+  .s-hobby .s-hobby__txt .s-hobby__txt-title {
+    font-size: 3rem;
+    margin: 8px 0;
+    padding-left: 20px;
+    line-height: 1.1;
+  }
+  /* line 38, ../../../sass/limited/_ogas.scss */
+  .s-hobby .s-hobby__txt .s-hobby__txt-description {
+    padding-left: 20px;
+    line-height: 1.5;
+  }
+}
+/* ウィンドウ幅が479pxイカの場合 */
+@media screen and (max-width: 479px) {
+  /* line 48, ../../../sass/limited/_ogas.scss */
+  .s-hobby {
+    padding: 4px;
+    box-shadow: 0 0 2px 3px rgba(0, 195, 195, 0.6);
+  }
+  /* line 52, ../../../sass/limited/_ogas.scss */
+  .s-hobby .s-hobby__img {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  /* line 57, ../../../sass/limited/_ogas.scss */
+  .s-hobby .s-hobby__txt {
+    width: 100%;
+    margin-botton: 8px;
+  }
+  /* line 61, ../../../sass/limited/_ogas.scss */
+  .s-hobby .s-hobby__txt .s-hobby__txt-title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  /* line 66, ../../../sass/limited/_ogas.scss */
+  .s-hobby .s-hobby__txt .s-hobby__txt-description {
+    padding-left: 20px;
+  }
+}
+/* line 74, ../../../sass/limited/_ogas.scss */
+.s-profile .s-profile-title {
+  margin: 8px;
+  font-size: 1.2rem;
+}
+/* line 77, ../../../sass/limited/_ogas.scss */
+.s-profile .s-profile-title .s-profile-title__myname {
+  font-weight: bold;
+}
+/* line 81, ../../../sass/limited/_ogas.scss */
+.s-profile .s-profile-paragraph {
+  margin: 8px 25px;
+}
+
+/* line 87, ../../../sass/limited/_ogas.scss */
+.s-change-log {
+  margin: 8px 25px;
+}
+/* line 90, ../../../sass/limited/_ogas.scss */
+.s-change-log .s-change-log__new-icon {
+  position: relative;
+  margin-bottom: 8px;
+}
+/* line 94, ../../../sass/limited/_ogas.scss */
+.s-change-log .s-change-log__new-icon:after {
+  background-position: 0 -17px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -6px;
+  left: 200px;
+  content: "";
+  display: block;
+}
+
+/* ===============================
+JS課題
+================================= */
+/* line 2, ../../../sass/limited/_yamanouchi.scss */
+.s-pickup-row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+/* line 3, ../../../sass/limited/_fukushima.scss */
+.page-fukushima #s-carousel {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+}
+/* line 11, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 10em;
+  background-color: #999;
+  display: none;
+  color: #fff;
+  text-align: center;
+  border: solid 5px #000;
+}
+/* line 23, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-carousel-item.is-current, .page-fukushima .s-carousel-item.is-left, .page-fukushima .s-carousel-item.is-right {
+  display: block;
+}
+/* line 28, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-carousel-item.is-left, .page-fukushima .s-carousel-item.is-right {
+  z-index: 10;
+}
+/* line 32, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-carousel-item.is-current {
+  z-index: 20;
+  left: 0;
+}
+/* line 35, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-carousel-item.is-current.to-right-current {
+  animation: left-to-right-current 1s ease 0s 1 normal;
+}
+/* line 38, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-carousel-item.is-current.to-left-current {
+  animation: right-to-left-current 1s ease 0s 1 normal;
+}
+/* line 43, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-carousel-item.is-left.is-active {
+  -webkit-animation: left-to-right 1s ease 0s 1 normal;
+  animation: left-to-right 1s ease 0s 1 normal;
+}
+/* line 49, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-carousel-item.is-right.is-active {
+  -webkit-animation: right-to-left 1s ease 0s 1 normal;
+  animation: right-to-left 1s ease 0s 1 normal;
+}
+/* line 54, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-carousel-item.is-active {
+  z-index: 30;
+}
+/* line 58, ../../../sass/limited/_fukushima.scss */
+.page-fukushima #s-btn {
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  justify-content: center;
+}
+/* line 62, ../../../sass/limited/_fukushima.scss */
+.page-fukushima #s-btn #s-btn-left-action,
+.page-fukushima #s-btn #s-btn-right-action {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  background: #EEE;
+  border: solid 1px #DDD;
+  border-radius: 70px;
+  color: #111;
+  padding: 10px;
+}
+/* line 73, ../../../sass/limited/_fukushima.scss */
+.page-fukushima #s-btn .p-icon-arrow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: solid 10px transparent;
+  border-bottom: solid 10px transparent;
+  display: inline-block;
+}
+/* line 78, ../../../sass/limited/_fukushima.scss */
+.page-fukushima #s-btn .p-icon-arrow.arrow-left, .page-fukushima #s-btn .p-icon-arrow.arrow-right {
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+}
+/* line 84, ../../../sass/limited/_fukushima.scss */
+.page-fukushima #s-btn .p-icon-arrow.arrow-left {
+  border-right: solid 10px #666;
+  margin-left: -6px;
+}
+/* line 88, ../../../sass/limited/_fukushima.scss */
+.page-fukushima #s-btn .p-icon-arrow.arrow-right {
+  border-left: solid 10px #666;
+  margin-left: -3px;
+}
+/* line 94, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-img {
+  text-align: center;
+}
+/* line 99, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-pankuzu {
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: box;
+  position: relative;
+  height: 26px;
+  padding-left: 30px;
+  margin: 4px;
+}
+/* line 107, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-pankuzu:before {
+  background-position: -25px -17px;
+  width: 26px;
+  height: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  content: "";
+}
+/* line 115, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-pankuzu .s-pankuzu__icon.icon-arrow {
+  background-position: -293px -3px;
+  width: 11px;
+  height: 14px;
+  margin-right: 3px;
+}
+/* line 123, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-ttl-profile {
+  background-color: #828282;
+  position: relative;
+  padding: 4px 4px 4px 22px;
+  margin-bottom: 8px;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+/* line 130, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-ttl-profile:before {
+  background-position: -29px -44px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  content: "";
+  display: block;
+  margin-top: -8px;
+}
+/* line 140, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-contents {
+  padding: 8px;
+  width: 304px;
+  margin: auto;
+}
+/* line 144, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-contents .s-contents__text {
+  padding: 4px;
+}
+/* line 149, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-ttl-introduction {
+  position: relative;
+  padding-left: 22px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+  width: 320px;
+}
+/* line 156, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-ttl-introduction:before {
+  background-position: 0 -44px;
+  width: 13px;
+  height: 14px;
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  content: "";
+  display: block;
+}
+/* line 163, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-ttl-introduction:after {
+  background-position: 0 0;
+  width: 304px;
+  height: 3px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  content: "";
+  display: block;
+}
+/* line 170, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-ttl-introduction.ttl-history {
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+/* line 176, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-ttl-introduction-sub {
+  position: relative;
+  padding-left: 4px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+/* line 181, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-ttl-introduction-sub:after {
+  background-position: 0 -3px;
+  width: 293px;
+  height: 3px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  content: "";
+  display: block;
+}
+/* line 190, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-history {
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: box;
+  margin: 0 4px;
+  height: 17px;
+}
+/* line 197, ../../../sass/limited/_fukushima.scss */
+.page-fukushima .s-history .s-history__icon.icon-new {
+  background-position: -13px -44px;
+  width: 16px;
+  height: 15px;
+  margin-left: 3px;
+  display: inline-block;
+}
+@-webkit-keyframes left-to-right {
+  from {
+    left: -300px;
+  }
+  99.9%,to {
+    left: 0;
+  }
+}
+@-webkit-keyframes left-to-right-current {
+  from {
+    left: 0;
+  }
+  99.9%,to {
+    left: -300px;
+  }
+}
+@-webkit-keyframes right-to-left {
+  from {
+    left: 300px;
+  }
+  99.9%,to {
+    left: 0;
+  }
+}
+@-webkit-keyframes right-to-left-current {
+  from {
+    left: 0;
+  }
+  99.9%,to {
+    left: 300px;
+  }
+}
